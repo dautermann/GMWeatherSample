@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+install! 'cocoapods', :deterministic_uuids => false
+use_frameworks!
+
+target 'GM-Weather-SampleTests' do
+
+    platform :ios, '11.0'
+
+    pod 'OHHTTPStubs'
+end
